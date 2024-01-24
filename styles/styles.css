@@ -1,16 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Poppins:wght@200&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+    --heading-font: 'Caveat Brush', cursive;
+    --paragraph-font: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Caveat Brush', cursive;
+}
+
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 5px;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
     color: steelblue;
+    padding: .5rem;
 }
 
 main img {
@@ -19,6 +40,8 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -31,12 +54,8 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -44,8 +63,26 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 60px;
+    left: 200px;
+}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(46, 71, 92);
+    padding: 1rem;
+    background-color: rgba(205, 209, 228);
+    color: #333;
+}
+
+.indent {
+    padding-left: 2.25rem;
 }
