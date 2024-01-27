@@ -63,7 +63,7 @@ div h1 {
 .hero article {
     display: block;
     position: absolute;
-    width: 800px;
+    width: 50rem;
     height: auto;
     background-color: aliceblue;
     opacity: .8;
