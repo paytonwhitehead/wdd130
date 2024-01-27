@@ -5,6 +5,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
 :root{
     --heading-font: 'Caveat Brush', cursive;
     --paragraph-font: 'Poppins', sans-serif;
