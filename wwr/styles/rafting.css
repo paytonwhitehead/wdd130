@@ -162,8 +162,10 @@ footer nav a {
     border: 2px solid #000;
     height: 200px;
     width: 300px;
-    justify-self: center;
-    align-self: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
     background-color: var(--primary-color);
     opacity: .6;
 }
@@ -191,13 +193,21 @@ footer nav a {
 
 .adventure figcaption {
     display: flex;
+    justify-content: center;
+    align-content: center;
     justify-items: center;
+    align-items: center;
     background-color: var(--primary-color);
     text-align: center;
     margin-bottom: 5px;
     opacity: .6;
     border: 2px solid #000;
     order: 2;
+}
+
+figcaption {
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color)
 }
 
 .grid {
