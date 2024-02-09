@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 1.2em;
+    color: #333;
+    background: lightgray;
+}
+
+header {
+    margin: 0 auto;
+    width: 840px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.6em;
+    color: steelblue;
+    text-align: center;
+}
+
+form {
+    width: 840px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    background-color: lightsteelblue;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid grey;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+label, input, button, select, textarea{
+    font-family: 'Poppins', sans-serif;
+}
+
+input, select, textarea {
+    padding: .25rem;
+    font-size: 1.2rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: #fff;
+}
+
+footer {
+    margin: 1rem auto;
+    width: 840px;
+    text-align:center;
+    font-size: 1.5rem;
+    color: steelblue;
+    border-top: 1.5px solid #000;
+}
