@@ -227,7 +227,7 @@ figcaption {
     display: grid;
     align-items: center;
 }
-.company-info{
+.company-info {
     width: 260px;
     height: 700px;
     margin: 0 auto;
@@ -274,4 +274,5 @@ label, input, button, select, textarea{
 .map {
     display: grid;
     justify-self: center;
+    padding-bottom: 10px;
 }
