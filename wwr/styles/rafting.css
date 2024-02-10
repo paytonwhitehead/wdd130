@@ -255,7 +255,7 @@ label, input, button, select, textarea{
 .master {
     display: flex;
 }
-input[type="button"] {
+button{
     background-color: #000;
     color: #fff;
 }
