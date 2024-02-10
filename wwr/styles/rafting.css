@@ -274,5 +274,4 @@ label, input, button, select, textarea{
 .map {
     display: grid;
     justify-self: center;
-    padding-bottom: 10px;
 }
