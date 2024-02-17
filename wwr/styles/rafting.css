@@ -85,7 +85,7 @@ main {
     float: left;
 }
 
-.hero img{
+.hero img {
     display: flex;
     width: 100%;
     height: auto;
@@ -180,7 +180,7 @@ footer nav a {
     color: grey;
 }
 
-.adventure-images figure , .employees figure {
+.adventure-images figure , .employees figure, .trips figure , .home figure{
     display: block;
     order: 1;
     justify-content: center;
@@ -205,7 +205,58 @@ footer nav a {
     align-content: center;
     margin-bottom: 5px;
 }
-.adventure figcaption, .employees figcaption {
+
+.trips {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px 380px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.book-buttons {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: space-evenly;
+}
+
+.big img {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    padding: 1rem;
+}
+
+.big h1 {
+    position: absolute;
+    left: 680px;
+    bottom: 500px;
+    font-size: 2em;
+}
+
+.start h1 {
+    position: absolute;
+    left: 620px;
+    bottom: 480px;
+    font-size: 2em;
+}
+
+.start img {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 150px;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.adventure figcaption, .employees figcaption , .trips figcaption , .home figcaption {
     display: flex;
     order: 2;
     justify-content: center;
@@ -215,7 +266,25 @@ footer nav a {
     border: 2px solid #000;
     padding: 20px;
     background-color: var(--primary-color);
-    opacity: .6;
+    opacity: .9;
+}
+
+.trips figcaption {
+    height: 300px;
+}
+
+.tripnav a {
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    margin-left:80px;
+    margin-right: 80px;
+    padding: 10px;
+    color: #000;
+    background-color: var(--accent1-color);
+    font-size: 1.5em;
 }
 
 figcaption {
@@ -223,10 +292,34 @@ figcaption {
     color: var(--accent2-color)
 }
 
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 20px;
+}
+
+thead, th{
+    background-color: lightsteelblue;
+}
+
+td {
+    background-color: var(--accent1-color);
+}
+
+ th, td {
+    padding: 0.5rem;
+ }
+
+ caption {
+    font-weight: 700;
+ }
+
 .grid {
     display: grid;
     align-items: center;
 }
+
 .company-info {
     width: 260px;
     height: 700px;
@@ -248,6 +341,16 @@ figcaption {
     border-right: 3px solid #000;
 }
 
+.sign-up {
+    width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    background-color: lightsteelblue;
+    display: grid;
+}
+
 button {
     margin: 1rem;
     background-color: #000;
@@ -261,6 +364,10 @@ button {
 button:hover {
     background-color: aliceblue;
     color: #000;
+}
+
+.big button , .tripsbutton button{
+    width: 800px;
 }
 
 label, input, button, select, textarea{
