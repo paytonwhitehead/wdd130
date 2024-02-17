@@ -379,6 +379,11 @@ label, input, button, select, textarea{
     display: flex;
 }
 
+.company-info a{
+    color: #000;
+    text-decoration-line: none;
+}
+
 .map {
     display: grid;
     justify-self: center;
