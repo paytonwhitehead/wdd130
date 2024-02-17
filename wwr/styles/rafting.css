@@ -167,7 +167,8 @@ footer nav a {
     justify-items: center;
     align-items: center;
     background-color: var(--primary-color);
-    opacity: .6;
+    color: #000;
+    opacity: .8;
 }
 
 .adventure h2, h2 , h3 , h1{
@@ -177,7 +178,7 @@ footer nav a {
 }
 
 .master h3 , .master h2 {
-    color: grey;
+    color: #000;
 }
 
 .adventure-images figure , .employees figure, .trips figure , .home figure{
